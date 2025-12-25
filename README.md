@@ -28,13 +28,13 @@ Conditions :
         -Rifampicine 0.02 µg/mL
 
 
-  +Points temporels : 4h, 24h, 72h post-traitement
+  - Points temporels : 4h, 24h, 72h post-traitement
 
-  +Réplicats : 3 réplicats biologiques par condition
+  - Réplicats : 3 réplicats biologiques par condition
 
-  +Total : 27 échantillons RNA-seq paired-end (Illumina NextSeq 500)
+  - Total : 27 échantillons RNA-seq paired-end (Illumina NextSeq 500)
 
-  +Source des données : GEO (PRJNA701434)
+  - Source des données : GEO (PRJNA701434)
 
 
 
@@ -57,9 +57,9 @@ Conditions :
 │   └── metadata.csv                   # Métadonnées des échantillons
 
 ├── reference/
-│   ├── h37rv.fna                      # Génome de référence (non inclus, à télécharger)
+│   ├── h37rv.fna                      # Génome de référence 
 
-│   └── annotation.gtf                 # Annotation génique (non inclus, à télécharger)
+│   └── annotation.gtf                 # Annotation génique 
 
 ├── results/
 │   ├── DEGs/                          # Gènes différentiellement exprimés (CSV)
@@ -132,6 +132,7 @@ La version des outils peuvent évoluer.
     1. Fichiers CSV : Liste des gènes différentiellement exprimés (6 comparaisons)
 
     2. PCA : Visualisation globale de la variabilité entre échantillons
+
     3. Volcano plots : Identification des gènes up/down-régulés (6 plots)
 
     4. Heatmaps : Expression des top DEGs par comparaison (8 heatmaps)
@@ -160,11 +161,19 @@ Les données brutes (fichiers FASTQ) ne sont pas incluses dans ce dépôt en rai
 
 # Auteur
     Keny Karl MOUNGUELE 
-Étudiant en Biotechnologie et Bioinformatique 
+Ingénieur Jr en Biotechnologie et Bioinformatique 
+www.linkedin.com/in/karl-mounguele
 
-[Ton email/LinkedIn si tu veux]
 
-# 🙏 Remerciements
+#  Remerciements
 
-Données RNA-seq : [Auteurs de l'étude originale]
+Données RNA-seq : 
+
+    Auteurs de l'étude originale : 
+
+        1. Emmanuel SRC et al., https://www.ncbi.nlm.nih.gov/pubmed/34873198
+
+        2. Srinivas V et al., https://www.ncbi.nlm.nih.gov/pubmed/34977849
+
+
 Outils bioinformatiques : Communauté open-source
